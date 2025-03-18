@@ -15,7 +15,7 @@ import JobPage from "./pages/job";
 
 const router =createBrowserRouter([
   {
-      element:<AppLayout/>,        //element: means what is going to be rendering inside my app -- and PPLayout me hum apni poori app wrap krenge
+      element:<AppLayout/>,        //element: means what is going to be rendering inside my app -- and appLayout me hum apni poori app wrap krenge
       children:[
         {
                path:'/',               //inside out children hum sare routes banayege jo ki humare Applayput pe ayenge
