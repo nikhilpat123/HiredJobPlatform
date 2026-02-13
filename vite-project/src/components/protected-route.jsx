@@ -1,7 +1,6 @@
-import React from 'react'
 import { useUser } from '@clerk/clerk-react';
-import {  useLocation } from 'react-router';
-import { Navigate } from 'react-router';
+import { useLocation } from "react-router";
+import { Navigate } from "react-router";
   
 // if the user is not logged in we dont want user to get on any othrt route we want him to go on onborading pafge ya fo=ir signip page wo koi ai=ur route na acces kr paye we we have to protect our routes
 //to achieve we get bunch on hookks from clert auth
